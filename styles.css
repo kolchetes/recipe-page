@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: hsl(30, 54%, 90%)
+}
+
+main {
+    width: 1440px;
+    margin: 0 auto;
+    background-color: white;
+    text-align: center;
+    font-size: 1.6rem;
+    border-radius: 2rem;
+}
+
+.section-title {
+    font-family: "Young Serif", serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.attribution {
+    font-size: 11px; text-align: center; 
+    color: hsl(228, 45%, 44%);
+}
