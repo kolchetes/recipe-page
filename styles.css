@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 html {
@@ -12,12 +13,26 @@ body {
 }
 
 main {
-    width: 1440px;
+    max-width: 1440px;
     margin: 0 auto;
     background-color: white;
     text-align: center;
     font-size: 1.6rem;
     border-radius: 2rem;
+    font-family: "Outfit", sans-serif;
+}
+
+
+.omelette-img {
+    max-width: 100%;
+    height: auto;
+    padding: 4rem;
+    border-radius: 6rem;
+}
+    
+.main-title {
+    font-size: 5rem;
+    font-weight: 400;
 }
 
 .section-title {
