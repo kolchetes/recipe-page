@@ -9,7 +9,8 @@ html {
 }
 
 body {
-    background-color: hsl(30, 54%, 90%)
+    background-color: hsl(30, 54%, 90%);
+    padding: 8rem;
 }
 
 .main-container {
@@ -20,22 +21,20 @@ body {
     font-size: 1.6rem;
     border-radius: 2rem;
     font-family: "Outfit", sans-serif;
+    color: hsl(30, 10%, 34%);
 }
 
 .omelette-img {
     max-width: 100%;
     height: auto;
-    border-radius: 6rem;
+    border-radius: 1rem;
 }
 
 .main-title {
     font-size: 5rem;
     font-weight: 400;
-    margin-top: 4rem;
-}
-
-.section-title {
-    font-family: "Young Serif", serif;
+    margin: 2rem 0;
+    color: black;
 }
 
 .preparation-section {
@@ -45,8 +44,14 @@ body {
     background-color: hsl(330, 100%, 98%);
 }
 
-.preparation-section h2 {
-    margin-left: 2rem;
+.preparation-section-title, .section-title, .main-title {
+    font-family: "Young Serif", serif;
+}
+
+.preparation-section-title {
+    margin-left: 3rem;
+    margin-bottom: 1rem;
+    font-size: 2.3rem;
     color: hsl(332, 51%, 32%)
 }
 
@@ -54,19 +59,34 @@ li::marker {
     color: hsl(14, 45%, 36%);
 }
 
-.preparation-list > li {
-    
-    padding: 1rem;
-    margin-left: 4rem;
+.highlited-text {
+    font-weight: 600;
 }
 
+.preparation-list > li {
+    padding: 1rem;
+    margin-left: 6rem;
+}
 
+.section-title {
+    font-size: 3rem;
+    color: hsl(14, 45%, 36%);
+    margin: 1.5rem 0;
+}
 
+.standard-section {
+   padding: 0 2rem 2rem 2rem;
+}
 
+.standard-section-list > li {
+    margin-left: 2.5rem;
+    padding: 1rem;
+}
 
-
-
-
+hr {
+    margin: 1.5rem 0;
+    color: hsla(30, 18%, 87%, 0.445);
+}
 
 
 
