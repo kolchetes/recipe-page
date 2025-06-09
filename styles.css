@@ -13,6 +13,11 @@ body {
     padding: 8rem;
 }
 
+hr {
+    margin: 1.5rem 0;
+    color: hsla(30, 18%, 87%, 0.445);
+}
+
 .main-container {
     max-width: 800px;
     margin: 0 auto;
@@ -83,18 +88,38 @@ li::marker {
     padding: 1rem;
 }
 
-hr {
-    margin: 1.5rem 0;
-    color: hsla(30, 18%, 87%, 0.445);
+.nutrition-table {
+    width: 100%;
+    margin: 2rem 0;
+    text-align: left;
 }
 
+.nutrition-table tr {
+    margin: 0 auto;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid hsla(30, 18%, 87%, 0.89);
+}
 
+.nutrition-table tr:last-child {
+    border: none
+}
 
+.nutrition-table th {
+    margin-left: 5rem;
+    color: hsl(30, 10%, 34%); 
+    font-weight: normal;
+}
 
-
-
+.nutrition-table td {
+    margin-right: 20rem;
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+}
 
 .attribution {
     font-size: 11px; text-align: center; 
     color: hsl(228, 45%, 44%);
+    margin-top: 5rem;
 }
