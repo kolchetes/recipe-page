@@ -20,10 +20,12 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 ### Screenshot
 
 Desktop:
-![](./assets/images/desktop-version.jpg)
+
+![](./assets/images/desktop-version.png)
 
 Mobile: 
-![](./assets/images/mobile-version.jpg)
+
+![](./assets/images/mobile-version.png)
 
 
 ### Links
